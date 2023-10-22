@@ -13,6 +13,13 @@ namespace Tyuiu.ZakharovaYV.Sprint3.Task1.V1
         {
             DataService ds = new DataService();
 
+            Console.Title = "Спринт#3 |Выполнила: Захарова Ю.В. |ПКТб-23-2";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт#3                                                                *");
+            Console.WriteLine("* Тема: Алгоритмы циклической структуры                                   *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
+            Console.WriteLine("* Выполнила: Захарова Юлиана Владимировна | ПКТб-23-2                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -33,3 +40,4 @@ namespace Tyuiu.ZakharovaYV.Sprint3.Task1.V1
         }
     }
 }
+

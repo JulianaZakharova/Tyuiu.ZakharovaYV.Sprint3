@@ -8,18 +8,14 @@ namespace Tyuiu.ZakharovaYV.Sprint3.Task1.V1.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetMuliplySeries()
+        public void GetMultiplySeriesValid()
         {
             DataService ds = new DataService();
-
             int startValue = 1;
             int stopValue = 7;
-
-            double res = ds.GetMultiplySeries(startValue, stopValue);
-
-            double wait = 5.31084;
-
-            Assert.AreEqual(wait, res);
+            double P = ds.GetMultiplySeries(startValue, stopValue);
+            double wait = 5.311;
+            Assert.AreEqual(P, wait);
         }
     }
 }

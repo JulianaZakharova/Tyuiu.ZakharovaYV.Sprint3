@@ -14,7 +14,7 @@ namespace Tyuiu.ZakharovaYV.Sprint3.Task1.V1.Lib
             double multSeries = 1;
             while (startValue <= stopValue)
             {
-                multSeries = multSeries * (Math.Pow((3 / startValue), -2));
+                multSeries = multSeries * Math.Pow(3, -2) / Math.Pow(startValue, -2);
                 startValue++;
             }
             return Math.Round(multSeries, 3);
